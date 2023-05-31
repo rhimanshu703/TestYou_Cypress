@@ -1,0 +1,29 @@
+{
+  "name": "cypress-web-automation",
+  "version": "1.0.0",
+  "description": "TestYou Cypress Web Automation demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-localstorage-commands": "^2.2.3",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  },
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false
+}
